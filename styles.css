@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(255, 0, 200);
+    font-family: lucida hand, cursive, rgb(200, 20, 200);
+    background-image: url(''); /* Replace 'background.jpg' with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    filter:drop-shadow(10px, 7px, 20px orange);
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+h1 {
+  font-family: lucida hand, cursive, rgb(200, 20, 200)
+
+
+}
+h2 {
+  font-family: lucida hand, cursive, rgb(200, 20, 200)
+}
+.navbar {
+  background-color: rgb(255, 0, 149);
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+.navbar a:hover {
+  background-color: rgb(0, 149, 248);
+  color: black;
+
+}
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 150;
+  border-radius: 200;
+  font-size: 100;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  filter:drop-shadow(10px, 7px, 20px orange);
+  font-family: lucida hand, cursive, rgb(200, 20, 200)
+}
+
+.container {
+    text-align: center;
+    background-image: url('bg gacha.jpg'); /* Replace 'background.jpg' with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Add a semi-transparent background for better readability */
+    padding: 100px;
+    border-radius: 100px;
+    
+   
+}
+
+
+
+ 
+
+#result {
+    margin-bottom: 200px;
+    margin-top:  60px;
+    padding: 100px;
+    font-size: 70px;
+}
+
+button {
+    position: relative;
+    padding: 30px 50px;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 106, 255);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    filter:drop-shadow(10px, 7px, 20px orange);
+    margin-bottom: 200px;
+    margin-top: 100px;
+  }
+  
+  button:hover {
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  button:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+  
+  button::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+  button:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+  }
+  
+
